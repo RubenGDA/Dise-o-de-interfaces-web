@@ -11,6 +11,7 @@ body {
     border-color: #729ea5;
     border-collapse: collapse;
     text-align: center;
+    margin-top: auto;
 }
 
 .tftable th {
@@ -37,4 +38,14 @@ body {
 
 .tftable tr:hover {
     background-color: #ffffff;
+}
+.tftable li{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    color: #2c45cf;
+}
+a{
+    color: #52affc;
 }
