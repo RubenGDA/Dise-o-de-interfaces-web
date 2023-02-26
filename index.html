@@ -1,78 +1,175 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Icono de la pestaña de la página-->
-    <link rel="shortcut icon" href="imágenes/favicon.png">
-    <!--Estilo de la página-->
-    <link href="estilo.css" rel="stylesheet" type="text/css">
-    <title>Interfaces web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <!--Cabecera de la página-->
-    <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light colorPrimario">
+        <h3 class="colorFuente">Página personal Rubén G</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="navbar-toggler fondo" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><span class="colorFuente">Inicio</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tema1.html"><span class="colorFuente">Tema 1</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tema2.html"><span class="colorFuente">Tema 2</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tema3.html"><span class="colorFuente">Tema 3</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tema4.html"><span class="colorFuente">Tema 4</span></a>
+                </li>
 
-    </header>
-    <!--Barra de navegación-->
-    <nav>
-
+            </ul>
+        </div>
     </nav>
-    <!--Secciones-->
-    <section>
-            <!--Tabla provisional para guardar información-->
-            <table class="tftable" border="1">
-            <tr><th>Tema 0. Herramientas web</th></tr>
-            <tr>
-                <td>
-                    <u><h2>Documentación:</h2></u>
-                    <a href="documentación/Rubén_García_DevtoolsFirefox.pdf">DevtoolsFirefox</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <u><h2>Herramientas:</h2></u>
-                    <a href="https://firefox-source-docs.mozilla.org/devtools-user/index.html">Devtools de Firefox</a>
-                </td>
-            </tr>
-            </table>
 
-            <table class="tftable" border="1">
-                <tr><th>Tema 1. Planificación de interfaces gráficas</th></tr>
-                <tr>
-                    <td>
-                        <u><h2>Documentación:</h2></u>
-                        <a href="documentación/Rubén_García_ComponentesWeb.pdf">Componentes web</a> &#124;
-                        <a href="documentación/Rubén_García_Sistema_Colores.pdf">Colores</a> &#124;
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <u><h2>Herramientas:</h2></u>
-                        <a href="https://paletton.com/#uid=13t0u0kqBM4fGT0luPjxTIJFltF">Paletton</a> &#124;
-                        <a href="https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=3daaf9">Color Tool</a> &#124;
-                        <a href="https://material.io/design/color/the-color-system.html#tools-for-picking-colors">Material Desing(Herramienta de colores)</a> 
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <u><h2>Prácticas:</h2></u>
-                        <a href="documentación/Componentes_Tema.pdf">Diseño de componentes con tema de colores</a> &#124;
-                        <a href="documentación/Formato PDF/Componentes.pdf">Componentes</a> &#124;
-                        <a href="documentación/Formato PDF/Diseño.pdf">Diseño</a> &#124;
-                        <a href="documentación/Formato PDF/Sketch.pdf">Sketch</a>
-                    </td>
-                </tr>
-                </table>
-    </section>
-    <!--Otra información-->
-    <aside>
+    <!-- Content -->
+    <div class="container mt-5">
+        <h1>Bienvenido a mi página personal</h1>
+        <p class="justificar">¡Hola! Bienvenido a mi página de aprendizaje de diseño web. ¿Alguna vez has querido crear tu propia página
+            web pero no sabes por dónde empezar? No te preocupes, estoy aquí para ayudarte. En este curso, te guiaré a
+            través de los conceptos básicos de diseño web, desde la creación de la estructura HTML hasta la aplicación
+            de estilos CSS y el uso de herramientas para la creación de contenido multimedia.
 
-    </aside>
-    <!--Pie de página-->
-    <footer>
+            Aprenderás cómo estructurar una página web correctamente, cómo diseñar un layout atractivo y cómo aplicar
+            estilos CSS para mejorar la apariencia visual de tu página. También te enseñaré cómo integrar diferentes
+            tipos de contenido multimedia, como imágenes, videos y animaciones, para crear experiencias interactivas y
+            enriquecedoras para tus usuarios.
 
+            Además, te proporcionaré las herramientas y recursos necesarios para crear páginas web accesibles,
+            cumpliendo con las normas y directrices internacionales de accesibilidad web y garantizando que todas las
+            personas puedan acceder a tu contenido.</p>
+    </div>
+    <!--Contenido introductorio-->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/imagenes/imagen1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HTML Básico</h5>
+                <p class="card-text">Aprende los conceptos básicos de HTML para crear una estructura sólida.<br></p>
+                <a href="tema1.html" class="btn btn-primary">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/imagenes/imagen2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">CSS Avanzado</h5>
+                <p class="card-text">Mejora el aspecto visual de tu sitio web utilizando estilos avanzados de CSS.</p>
+                <a href="tema2.html" class="btn btn-primary">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/imagenes/imagen3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Diseño Responsive</h5>
+                <p class="card-text">Aprende a diseñar páginas web que se adapten a diferentes tamaños de pantalla y dispositivos.</p>
+                <a href="tema3.html" class="btn btn-primary">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/imagenes/imagen4.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Integración Multimedia</h5>
+                <p class="card-text">Aprende a integrar imágenes, videos y otros tipos de contenido multimedia en tus páginas web.</p>
+                <a href="tema4.html" class="btn btn-primary">Comenzar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Esta página ha sido realizada y diseñada por Rubén García Domínguez,
+                    estudiante del I.E.S Ribera de Castilla en el ciclo formativo de Grado
+                    Superior de Desarrollo de Aplicaciones Web como trabajo de clase, utilizando
+                    Bootstrap.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-12">
+                        <h5 class="text-uppercase">Recursos utilizados</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="https://getbootstrap.com/" class="text-white">Framework: Bootstrap</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Prototipado: Figma</a>
+                            </li>
+                            <li>
+                                <a href="https://docs.github.com/es/pages/quickstart" class="text-white">Servidor de
+                                    despliegue:
+                                    GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 colorPrimario">
+            © 2020 Copyright:
+            <b class="text-white">Rubén García Domínguez</b>
+        </div>
+        <!-- Copyright -->
     </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
